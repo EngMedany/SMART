@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Touch | Facility Management</title>
+  <meta
+    name="description"
+    content="Smart Touch delivers facility management, maintenance, cleaning, manpower, and operational support services with reliable performance and modern standards."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-wrap">
+        <div class="topbar-left">
+          <a href="mailto:your-email@example.com">
+            <i class="bi bi-envelope"></i>
+            <span>your-email@example.com</span>
+          </a>
+          <a href="tel:+000000000000">
+            <i class="bi bi-telephone"></i>
+            <span>+00 000 000 0000</span>
+          </a>
+        </div>
+
+        <div class="topbar-right">
+          <a href="#" class="topbar-link">
+            <i class="bi bi-whatsapp"></i>
+            <span>WhatsApp</span>
+          </a>
+
+          <button id="langToggle" class="lang-toggle" type="button">
+            AR
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <span class="brand-mark">ST</span>
+          <span class="brand-text">Smart Touch</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon custom-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html" data-i18n="navHome">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" data-i18n="navAbout">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services" data-i18n="navServices">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials" data-i18n="navTestimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq" data-i18n="navFaq">FAQ</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn btn-brand" href="#contact" data-i18n="navContact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero-section" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="row align-items-center min-vh-100 hero-row">
+          <div class="col-lg-7">
+            <div class="hero-content reveal">
+              <span class="section-chip" data-i18n="heroChip">Integrated Facility Management Solutions</span>
+
+              <h1 data-i18n="heroTitle">
+                Smart Operations. Reliable Teams. Better Spaces.
+              </h1>
+
+              <p class="hero-text" data-i18n="heroText">
+                Smart Touch provides modern facility management services tailored for commercial,
+                residential, hospitality, and industrial environments with quality, safety, and consistency.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#services" class="btn btn-brand btn-lg" data-i18n="heroBtnPrimary">Explore Services</a>
+                <a href="#contact" class="btn btn-outline-brand btn-lg" data-i18n="heroBtnSecondary">Get a Quote</a>
+              </div>
+
+              <div class="hero-mini-stats">
+                <div class="mini-stat">
+                  <strong>150+</strong>
+                  <span data-i18n="miniStat1">Completed Projects</span>
+                </div>
+                <div class="mini-stat">
+                  <strong>100+</strong>
+                  <span data-i18n="miniStat2">Happy Clients</span>
+                </div>
+                <div class="mini-stat">
+                  <strong>24/7</strong>
+                  <span data-i18n="miniStat3">Operational Support</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="hero-card glass-card reveal delay-2">
+              <div class="hero-card-top">
+                <span class="hero-badge" data-i18n="heroCardBadge">Trusted Service Partner</span>
+              </div>
+
+              <h3 data-i18n="heroCardTitle">Facility excellence with a smarter touch</h3>
+              <p data-i18n="heroCardText">
+                From cleaning and maintenance to manpower and technical support,
+                we help businesses run smoothly with dependable teams and measurable service quality.
+              </p>
+
+              <ul class="hero-list">
+                <li data-i18n="heroList1"><i class="bi bi-check2-circle"></i> Responsive support teams</li>
+                <li data-i18n="heroList2"><i class="bi bi-check2-circle"></i> Customized service plans</li>
+                <li data-i18n="heroList3"><i class="bi bi-check2-circle"></i> Safety and compliance focused</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-box reveal">
+            <h2>105+</h2>
+            <p data-i18n="stat1">Happy Clients</p>
+          </div>
+          <div class="stat-box reveal delay-1">
+            <h2>150+</h2>
+            <p data-i18n="stat2">Projects Completed</p>
+          </div>
+          <div class="stat-box reveal delay-2">
+            <h2>03+</h2>
+            <p data-i18n="stat3">Years of Experience</p>
+          </div>
+          <div class="stat-box reveal delay-3">
+            <h2>24/7</h2>
+            <p data-i18n="stat4">Service Availability</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="section-padding about-section" id="about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="about-image-wrap reveal">
+              <div class="about-image-card">
+                <img
+                  src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80"
+                  alt="Facility management professionals"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="section-heading reveal delay-1">
+              <span class="section-chip" data-i18n="aboutChip">About Smart Touch</span>
+              <h2 data-i18n="aboutTitle">A dependable partner for cleaner, safer, and more efficient facilities</h2>
+              <p data-i18n="aboutText1">
+                Smart Touch is built to support organizations that need reliable facility services,
+                consistent operations, and service delivery standards they can trust every day.
+              </p>
+              <p data-i18n="aboutText2">
+                Our approach combines responsive teams, preventive thinking, and quality-focused execution
+                across maintenance, soft services, manpower, and site support operations.
+              </p>
+
+              <div class="about-points">
+                <div class="about-point">
+                  <i class="bi bi-shield-check"></i>
+                  <span data-i18n="aboutPoint1">Reliable and quality-driven service model</span>
+                </div>
+                <div class="about-point">
+                  <i class="bi bi-building-check"></i>
+                  <span data-i18n="aboutPoint2">Tailored support for multiple facility types</span>
+                </div>
+                <div class="about-point">
+                  <i class="bi bi-people"></i>
+                  <span data-i18n="aboutPoint3">Trained teams with professional supervision</span>
+                </div>
+              </div>
+
+              <a href="#" class="btn btn-brand mt-4" data-i18n="aboutBtn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section-padding services-section" id="services">
+      <div class="container">
+        <div class="section-heading text-center mx-auto reveal">
+          <span class="section-chip" data-i18n="servicesChip">Our Services</span>
+          <h2 data-i18n="servicesTitle">Smart solutions for every operational need</h2>
+          <p data-i18n="servicesText">
+            We provide scalable service packages designed to support business continuity,
+            workplace standards, and operational performance.
+          </p>
+        </div>
+
+        <div class="row g-4 mt-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card reveal">
+              <div class="service-icon"><i class="bi bi-buildings"></i></div>
+              <h3 data-i18n="service1Title">Facility Management</h3>
+              <p data-i18n="service1Text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, distinctio.
+              </p>
+              <a href="#" class="service-link" data-i18n="serviceBtn">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card reveal delay-1">
+              <div class="service-icon"><i class="bi bi-tools"></i></div>
+              <h3 data-i18n="service2Title">MEP Maintenance</h3>
+              <p data-i18n="service2Text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, distinctio.
+              </p>
+              <a href="#" class="service-link" data-i18n="serviceBtn">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card reveal delay-2">
+              <div class="service-icon"><i class="bi bi-brush"></i></div>
+              <h3 data-i18n="service3Title">Specialized Cleaning</h3>
+              <p data-i18n="service3Text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, distinctio.
+              </p>
+              <a href="#" class="service-link" data-i18n="serviceBtn">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card reveal">
+              <div class="service-icon"><i class="bi bi-person-workspace"></i></div>
+              <h3 data-i18n="service4Title">Manpower Supply</h3>
+              <p data-i18n="service4Text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, distinctio.
+              </p>
+              <a href="#" class="service-link" data-i18n="serviceBtn">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card reveal delay-1">
+              <div class="service-icon"><i class="bi bi-tree"></i></div>
+              <h3 data-i18n="service5Title">Landscape Services</h3>
+              <p data-i18n="service5Text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, distinctio.
+              </p>
+              <a href="#" class="service-link" data-i18n="serviceBtn">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card reveal delay-2">
+              <div class="service-icon"><i class="bi bi-clipboard2-pulse"></i></div>
+              <h3 data-i18n="service6Title">Operational Support</h3>
+              <p data-i18n="service6Text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, distinctio.
+              </p>
+              <a href="#" class="service-link" data-i18n="serviceBtn">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us -->
+    <section class="section-padding why-us-section">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-5">
+            <div class="section-heading reveal">
+              <span class="section-chip" data-i18n="whyChip">Why Choose Us</span>
+              <h2 data-i18n="whyTitle">Service quality backed by consistency and care</h2>
+              <p data-i18n="whyText">
+                We help clients reduce operational friction and improve service outcomes through
+                practical execution, trained teams, and performance-focused support.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="feature-card reveal">
+                  <i class="bi bi-lightning-charge"></i>
+                  <h3 data-i18n="feature1Title">Fast Response</h3>
+                  <p data-i18n="feature1Text">Quick deployment and efficient communication for urgent and routine requirements.</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="feature-card reveal delay-1">
+                  <i class="bi bi-award"></i>
+                  <h3 data-i18n="feature2Title">Quality Standards</h3>
+                  <p data-i18n="feature2Text">Service procedures designed around reliability, cleanliness, and measurable outcomes.</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="feature-card reveal delay-2">
+                  <i class="bi bi-diagram-3"></i>
+                  <h3 data-i18n="feature3Title">Flexible Solutions</h3>
+                  <p data-i18n="feature3Text">Custom service plans built around different sectors, property types, and operating models.</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="feature-card reveal delay-3">
+                  <i class="bi bi-person-check"></i>
+                  <h3 data-i18n="feature4Title">Professional Teams</h3>
+                  <p data-i18n="feature4Text">Well-managed staff and supervisors focused on consistency, professionalism, and safety.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-padding testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-heading text-center mx-auto reveal">
+          <span class="section-chip" data-i18n="testimonialsChip">Testimonials</span>
+          <h2 data-i18n="testimonialsTitle">What our clients say</h2>
+          <p data-i18n="testimonialsText">
+            We build long-term relationships through dependable service and operational excellence.
+          </p>
+        </div>
+
+        <div id="testimonialCarousel" class="carousel slide mt-5 reveal" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-card">
+                <p data-i18n="testimonial1Text">
+                  “Their team is professional, responsive, and committed to service excellence.
+                  We’ve seen real improvement in our daily operations.”
+                </p>
+                <h5 data-i18n="testimonial1Name">Operations Manager</h5>
+                <span data-i18n="testimonial1Role">Corporate Client</span>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <p data-i18n="testimonial2Text">
+                  “Smart Touch delivered reliable support and consistent quality across our facility requirements.”
+                </p>
+                <h5 data-i18n="testimonial2Name">Project Director</h5>
+                <span data-i18n="testimonial2Role">Commercial Client</span>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <p data-i18n="testimonial3Text">
+                  “We value their professionalism, flexibility, and ability to respond quickly to operational needs.”
+                </p>
+                <h5 data-i18n="testimonial3Name">Facility Supervisor</h5>
+                <span data-i18n="testimonial3Role">Hospitality Client</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section-padding faq-section" id="faq">
+      <div class="container">
+        <div class="section-heading text-center mx-auto reveal">
+          <span class="section-chip" data-i18n="faqChip">FAQ</span>
+          <h2 data-i18n="faqTitle">Frequently asked questions</h2>
+          <p data-i18n="faqText">
+            Here are some common questions about our services and operating model.
+          </p>
+        </div>
+
+        <div class="accordion custom-accordion mt-5 reveal" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne">
+                <span data-i18n="faq1Question">What types of facilities do you support?</span>
+              </button>
+            </h2>
+            <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" data-i18n="faq1Answer">
+                We support commercial, residential, hospitality, healthcare, industrial, and mixed-use facilities.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo">
+                <span data-i18n="faq2Question">Can services be customized for our site needs?</span>
+              </button>
+            </h2>
+            <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" data-i18n="faq2Answer">
+                Yes, we prepare tailored service packages based on your operational scope, site conditions, and priorities.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree">
+                <span data-i18n="faq3Question">Do you provide ongoing support and supervision?</span>
+              </button>
+            </h2>
+            <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" data-i18n="faq3Answer">
+                Absolutely. Our service model includes follow-up, supervision, and quality monitoring for continuity and improvement.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box reveal">
+          <div>
+            <span class="section-chip light-chip" data-i18n="ctaChip">Let’s Work Together</span>
+            <h2 data-i18n="ctaTitle">Need a smarter facility service partner?</h2>
+            <p data-i18n="ctaText">
+              Talk to our team about your facility, manpower, maintenance, or operational support needs.
+            </p>
+          </div>
+          <a href="#contact" class="btn btn-light-brand" data-i18n="ctaBtn">Request a Consultation</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer / Contact -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <div class="footer-brand">
+            <a class="navbar-brand footer-logo" href="index.html">
+              <span class="brand-mark">ST</span>
+              <span class="brand-text">Smart Touch</span>
+            </a>
+
+            <p data-i18n="footerText">
+              Smart Touch provides reliable facility management solutions designed to improve
+              service quality, operational continuity, and workplace standards.
+            </p>
+
+            <div class="footer-contact-list">
+              <a href="mailto:your-email@example.com">
+                <i class="bi bi-envelope"></i>
+                <span>your-email@example.com</span>
+              </a>
+              <a href="tel:+000000000000">
+                <i class="bi bi-telephone"></i>
+                <span>+00 000 000 0000</span>
+              </a>
+              <a href="#">
+                <i class="bi bi-whatsapp"></i>
+                <span>WhatsApp Placeholder</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="footer-form-wrap">
+            <div class="section-heading mb-4">
+              <span class="section-chip" data-i18n="contactChip">Contact Us</span>
+              <h2 data-i18n="contactTitle">Send us your request</h2>
+            </div>
+
+            <form class="contact-form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Full Name" data-i18n-placeholder="formName" />
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="Email Address" data-i18n-placeholder="formEmail" />
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Phone Number" data-i18n-placeholder="formPhone" />
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Service Type" data-i18n-placeholder="formService" />
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control" rows="5" placeholder="Write your message..." data-i18n-placeholder="formMessage"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-brand w-100" data-i18n="formBtn">Submit Request</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          © <span id="currentYear"></span> Smart Touch. <span data-i18n="footerCopy">All rights reserved.</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
