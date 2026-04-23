@@ -23,8 +23,10 @@
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    
   />
-
+  
+   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -102,7 +104,7 @@
   </header>
 
   <main>
-    <section class="hero-section" id="home">
+    <!-- <section class="hero-section" id="home">
       <div class="hero-overlay"></div>
       <div class="container">
         <div class="row align-items-center min-vh-100 hero-row">
@@ -163,8 +165,104 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+<section class="hero-section">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="10000">
+    <div class="carousel-inner">
 
+      <div class="carousel-item active">
+        <img src="images/hero.avif" class="d-block w-100 hero-slide-img" alt="Smart Touch facility management">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption hero-content">
+          <span class="hero-kicker" data-i18n="heroKicker">Integrated Facility Services</span>
+          <h1 data-i18n="heroTitle">Smart operational solutions for cleaner, safer, and better managed spaces</h1>
+          <p data-i18n="heroText">We provide facility management, cleaning, maintenance, pest control, supplies, and landscaping services tailored to modern business environments.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary hero-btn" data-i18n="exploreServices">Explore Services</a>
+            <a href="#contact" class="btn btn-outline-light hero-btn hero-btn-outline" data-i18n="requestQuote">Request a Quote</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/images 1.jpg" class="d-block w-100 hero-slide-img" alt="Facility operations team">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption hero-content">
+          <span class="hero-kicker" data-i18n="heroKicker">Integrated Facility Services</span>
+          <h1 data-i18n="heroTitle">Smart operational solutions for cleaner, safer, and better managed spaces</h1>
+          <p data-i18n="heroText">We provide facility management, cleaning, maintenance, pest control, supplies, and landscaping services tailored to modern business environments.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary hero-btn" data-i18n="exploreServices">Explore Services</a>
+            <a href="#contact" class="btn btn-outline-light hero-btn hero-btn-outline" data-i18n="requestQuote">Request a Quote</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/images 2.jpg" class="d-block w-100 hero-slide-img" alt="Professional facility meeting">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption hero-content">
+          <span class="hero-kicker" data-i18n="heroKicker">Integrated Facility Services</span>
+          <h1 data-i18n="heroTitle">Smart operational solutions for cleaner, safer, and better managed spaces</h1>
+          <p data-i18n="heroText">We provide facility management, cleaning, maintenance, pest control, supplies, and landscaping services tailored to modern business environments.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary hero-btn" data-i18n="exploreServices">Explore Services</a>
+            <a href="#contact" class="btn btn-outline-light hero-btn hero-btn-outline" data-i18n="requestQuote">Request a Quote</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/image 3.jpeg" class="d-block w-100 hero-slide-img" alt="Facility planning and management">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption hero-content">
+          <span class="hero-kicker" data-i18n="heroKicker">Integrated Facility Services</span>
+          <h1 data-i18n="heroTitle">Smart operational solutions for cleaner, safer, and better managed spaces</h1>
+          <p data-i18n="heroText">We provide facility management, cleaning, maintenance, pest control, supplies, and landscaping services tailored to modern business environments.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary hero-btn" data-i18n="exploreServices">Explore Services</a>
+            <a href="#contact" class="btn btn-outline-light hero-btn hero-btn-outline" data-i18n="requestQuote">Request a Quote</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/image 4.jpg" class="d-block w-100 hero-slide-img" alt="Facility management planning desk">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption hero-content">
+          <span class="hero-kicker" data-i18n="heroKicker">Integrated Facility Services</span>
+          <h1 data-i18n="heroTitle">Smart operational solutions for cleaner, safer, and better managed spaces</h1>
+          <p data-i18n="heroText">We provide facility management, cleaning, maintenance, pest control, supplies, and landscaping services tailored to modern business environments.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary hero-btn" data-i18n="exploreServices">Explore Services</a>
+            <a href="#contact" class="btn btn-outline-light hero-btn hero-btn-outline" data-i18n="requestQuote">Request a Quote</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4"></button>
+    </div>
+  </div>
+</section>
+
+   
     <section class="stats-section">
       <div class="container">
         <div class="stats-grid">
@@ -249,7 +347,7 @@
           </p>
         </div>
 
-        <div class="row g-4 mt-4">
+        <!-- <div class="row g-4 mt-4">
           <div class="col-md-6 col-lg-4">
             <div class="service-card reveal">
               <div class="service-icon"><i class="bi bi-buildings"></i></div>
@@ -258,7 +356,6 @@
                 Daily building operations, contractor supervision, asset follow-up, emergency response,
                 and full site management with quality and safety control.
               </p>
-              <!-- <a href="#contact" class="service-link" data-i18n="serviceBtn">View Details <i class="bi bi-arrow-right"></i></a> -->
                <button
   type="button"
   class="service-link service-modal-btn"
@@ -360,7 +457,103 @@
 </button>
             </div>
           </div>
-        </div>
+        </div> -->
+<div class="row g-4 services-grid">
+
+  <div class="col-lg-4 col-md-6">
+    <div class="service-card service-card-bg" style="background-image: url('images/facility.jpg');">
+      <div class="service-card-overlay"></div>
+      <div class="service-card-content">
+        <span class="service-badge" data-i18n="facilityChip">Facility Management</span>
+        <h3 data-i18n="facilityTitle">Facility Management</h3>
+        <p data-i18n="facilityText">Integrated solutions for efficient facility operation, asset protection, and service coordination.</p>
+        <button class="service-modal-btn" data-bs-toggle="modal" data-bs-target="#facilityModal">
+          <span data-i18n="viewDetails">View Details</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6">
+    <div class="service-card service-card-bg" style="background-image: url('images/cleaning.jpg');">
+      <div class="service-card-overlay"></div>
+      <div class="service-card-content">
+        <span class="service-badge" data-i18n="cleaningChip">Cleaning Services</span>
+        <h3 data-i18n="cleaningTitle">Cleaning Services</h3>
+        <p data-i18n="cleaningText">Professional cleaning services for healthier, cleaner, and more presentable spaces.</p>
+        <button class="service-modal-btn" data-bs-toggle="modal" data-bs-target="#cleaningModal">
+          <span data-i18n="viewDetails">View Details</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6">
+    <div class="service-card service-card-bg" style="background-image: url('images/Technical\ Maintenance.jpg');">
+      <div class="service-card-overlay"></div>
+      <div class="service-card-content">
+        <span class="service-badge" data-i18n="maintenanceChip">Technical Maintenance</span>
+        <h3 data-i18n="maintenanceTitle">Technical Maintenance</h3>
+        <p data-i18n="maintenanceText">Preventive and corrective maintenance that reduces downtime and improves reliability.</p>
+        <button class="service-modal-btn" data-bs-toggle="modal" data-bs-target="#maintenanceModal">
+          <span data-i18n="viewDetails">View Details</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6">
+    <div class="service-card service-card-bg" style="background-image: url('images/General\ Supplies.jpg');">
+      <div class="service-card-overlay"></div>
+      <div class="service-card-content">
+        <span class="service-badge" data-i18n="suppliesChip">General Supplies</span>
+        <h3 data-i18n="suppliesTitle">General Supplies</h3>
+        <p data-i18n="suppliesText">Reliable operational supplies to support daily facility requirements with speed and quality.</p>
+        <button class="service-modal-btn" data-bs-toggle="modal" data-bs-target="#suppliesModal">
+          <span data-i18n="viewDetails">View Details</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6">
+    <div class="service-card service-card-bg" style="background-image: url('images/Pest\ Control.jpg');">
+      <div class="service-card-overlay"></div>
+      <div class="service-card-content">
+        <span class="service-badge" data-i18n="pestChip">Pest Control</span>
+        <h3 data-i18n="pestTitle">Pest Control</h3>
+        <p data-i18n="pestText">Safe and effective pest control programs for healthier and protected environments.</p>
+        <button class="service-modal-btn" data-bs-toggle="modal" data-bs-target="#pestModal">
+          <span data-i18n="viewDetails">View Details</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6">
+    <div class="service-card service-card-bg" style="background-image: url('images/Landscaping.jpg');">
+      <div class="service-card-overlay"></div>
+      <div class="service-card-content">
+        <span class="service-badge" data-i18n="landscapeChip">Landscaping</span>
+        <h3 data-i18n="landscapeTitle">Landscaping</h3>
+        <p data-i18n="landscapeText">Green spaces and outdoor care solutions that improve site image and comfort.</p>
+        <button class="service-modal-btn" data-bs-toggle="modal" data-bs-target="#landscapeModal">
+          <span data-i18n="viewDetails">View Details</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
       </div>
     </section>
 
@@ -1117,6 +1310,34 @@
 </div>
 
 
+
+<div class="floating-social-wrap" id="floatingSocialWrap">
+  <button class="floating-social-toggle" id="floatingSocialToggle" aria-label="Toggle social links">
+    <i class="fa-solid fa-comment-dots"></i>
+  </button>
+
+  <div class="floating-social-links" id="floatingSocialLinks">
+    <a href="tel:+201557230124" class="social-float-item call" target="_blank" rel="noopener noreferrer" aria-label="Call us">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/company/smart-touch/" class="social-float-item linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+
+    <a href="https://m.me/yourpageusername" class="social-float-item messenger" target="_blank" rel="noopener noreferrer" aria-label="Messenger">
+      <i class="fa-brands fa-facebook-messenger"></i>
+    </a>
+
+    <a href="https://wa.me/201557230124" class="social-float-item whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <button class="social-float-item close-social" id="closeFloatingSocial" aria-label="Close social links">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+</div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
